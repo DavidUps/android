@@ -2,13 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.arribasd.appdavid.ProfileFragment"
+    tools:context="com.example.arribasd.appdavid.Fragments.ProfileFragment"
     android:id="@+id/fragmentProfile">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
 
         <ImageView
             android:id="@+id/profileImageView"
