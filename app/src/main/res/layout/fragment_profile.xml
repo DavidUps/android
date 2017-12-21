@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arribasd.appdavid.ProfileFragment"
+    android:id="@+id/fragmentProfile">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/border"
+            />
+
+        <EditText
+            style="@style/fragment"
+            android:id="@+id/emailText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/profileImageView"
+            android:layout_alignStart="@+id/profileImageView"
+            android:layout_below="@+id/profileImageView"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/fragment_email"/>
+
+        <EditText
+            android:id="@+id/telephoneText"
+            style="@style/fragment"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/fragment_telephone"/>
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/telephoneText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Guardar" />
+
+    </RelativeLayout>
+</FrameLayout>
