@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adapterName"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:text="hola"
+            android:textAllCaps="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adapterSurname"
+            android:text="apellido"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adapterEmail"
+            android:text="email"
+            android:textSize="14dp"
+            android:textColor="@android:color/darker_gray"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adapterTelephone"
+            android:text="telefone"
+            android:textSize="14dp"
+            android:textColor="@android:color/darker_gray"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
