@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Aplicacion Prueba V1</string>
-    <string name="title_profile">Perfil</string>
-    <string name="login_user">Usuario</string>
-    <string name="login_password">Contraseña</string>
-    <string name="title_list">Lista</string>
-</resources>
