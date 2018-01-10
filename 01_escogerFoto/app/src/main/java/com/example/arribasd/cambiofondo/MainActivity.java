@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 intent.setType("message/rfc822");
                 chosser = Intent.createChooser(intent, "Enviar Email");
                 intent.putExtra(intent.EXTRA_STREAM, uri);
+
+
                 startActivity(chosser);
 
             }
