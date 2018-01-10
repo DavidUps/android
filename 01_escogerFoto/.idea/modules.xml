@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CambioFondo.iml" filepath="$PROJECT_DIR$/CambioFondo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_escogerFoto.iml" filepath="$PROJECT_DIR$/01_escogerFoto.iml" />
+      <module fileurl="file://C:\Users\ArribasD\Documents\GitHub\android\01_escogerFoto\CambioFondo.iml" filepath="C:\Users\ArribasD\Documents\GitHub\android\01_escogerFoto\CambioFondo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\ArribasD\Documents\GitHub\android\01_escogerFoto\app\app.iml" filepath="C:\Users\ArribasD\Documents\GitHub\android\01_escogerFoto\app\app.iml" />
     </modules>
   </component>
 </project>
