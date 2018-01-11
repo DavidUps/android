@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mostrarBtn = (Button) findViewById(R.id.mostrarBtn);
         mostrarText = (TextView) findViewById(R.id.mostrarTextView);
 
+        //Guardar
         guardarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Mostrar
         mostrarBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

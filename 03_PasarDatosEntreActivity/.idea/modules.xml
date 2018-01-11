@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PasarDatosEntreActivity.iml" filepath="$PROJECT_DIR$/PasarDatosEntreActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_PasarDatosEntreActivity.iml" filepath="$PROJECT_DIR$/03_PasarDatosEntreActivity.iml" />
+      <module fileurl="file://C:\Users\ArribasD\Documents\GitHub\android\03_PasarDatosEntreActivity\PasarDatosEntreActivity.iml" filepath="C:\Users\ArribasD\Documents\GitHub\android\03_PasarDatosEntreActivity\PasarDatosEntreActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\ArribasD\Documents\GitHub\android\03_PasarDatosEntreActivity\app\app.iml" filepath="C:\Users\ArribasD\Documents\GitHub\android\03_PasarDatosEntreActivity\app\app.iml" />
     </modules>
   </component>
 </project>
