@@ -1,10 +1,13 @@
 package com.example.arribasd.a14_snackbar;
 
+import android.graphics.Color;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,9 +23,15 @@ public class MainActivity extends AppCompatActivity {
         menssage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view,"Hola soy tu mensage", Snackbar.LENGTH_LONG).setAction("Action", null).show();
-                //mySnackbar.setAction(R.string.undo_string, new MyUndoListener());
-                //mySnackbar.show();
+                Snackbar.make(view, "Mensaje que se pone", Snackbar.LENGTH_LONG)
+                        .setActionTextColor(Color.CYAN)
+                        .setAction("Nombre del Boton", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Toast.makeText(MainActivity.this,"Hola has pulsado",Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .show();
             }
 
 
