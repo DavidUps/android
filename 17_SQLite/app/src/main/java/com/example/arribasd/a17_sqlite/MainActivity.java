@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.arribasd.a17_sqlite.Activitys.Consultar;
+import com.example.arribasd.a17_sqlite.Activitys.ConsultarList;
+import com.example.arribasd.a17_sqlite.Activitys.ConsultarSpinner;
 import com.example.arribasd.a17_sqlite.Activitys.Registro;
 import com.example.arribasd.a17_sqlite.Utilidades.Utilidades;
 
@@ -37,16 +39,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(consultar);
                 break;
             case R.id.consultarSpinnerBtn:
-                /*
                 Intent consultarSpinner = new Intent(MainActivity.this, ConsultarSpinner.class);
                 startActivity(consultarSpinner);
-                */
                 break;
             case R.id.consultarListViewBtn:
-                /*
                 Intent consultarListView = new Intent(MainActivity.this, ConsultarList.class);
                 startActivity(consultarListView);
-                 */
                 break;
         }
     }

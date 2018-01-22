@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Activitys.Registro" />
         <activity android:name=".Activitys.Consultar" />
-        <activity android:name=".Activitys.ConsultarSpinner"></activity>
+        <activity android:name=".Activitys.ConsultarSpinner" />
+        <activity android:name=".Activitys.ConsultarList"></activity>
     </application>
 
 </manifest>
