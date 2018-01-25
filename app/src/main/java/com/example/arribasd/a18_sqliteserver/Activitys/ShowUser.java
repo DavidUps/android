@@ -52,7 +52,7 @@ public class ShowUser extends AppCompatActivity implements Response.Listener<Str
 
                         Usuario usuario = new Usuario();
 
-                        JSONArray jsonArray = response.optJSONArray("");
+                        JSONArray jsonArray = response.("");
 
                         Log.d("show", response);
                     }
