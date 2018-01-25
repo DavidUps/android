@@ -52,7 +52,7 @@ public class ConsultarList extends AppCompatActivity {
         Cursor cursor = db.rawQuery("SELECT * FROM " + Utilidades.TABLA_USUARIO, null);
 
         while(cursor.moveToNext()){
-            
+
             usuario = new Usuario();
 
             usuario.setId(cursor.getInt(0));
