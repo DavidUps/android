@@ -1,12 +1,11 @@
-package com.example.arribasd.a18_sqliteserver;
+package com.example.arribasd.a18_sqliteremote.Activitis;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.arribasd.a18_sqliteserver.Activitys.Registry;
-import com.example.arribasd.a18_sqliteserver.Activitys.ShowUser;
+import com.example.arribasd.a18_sqliteremote.R;
 
 public class MainActivity extends AppCompatActivity {
 

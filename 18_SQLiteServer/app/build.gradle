@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.arribasd.a18_sqliteremote"
+        applicationId "com.example.arribasd.a18_sqliteserver"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -19,6 +19,7 @@ android {
 }
 
 dependencies {
+    compile 'com.android.volley:volley:1.1.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'

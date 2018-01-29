@@ -6,20 +6,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.arribasd.a18_sqliteremote.Activitis.MainActivity">
+    tools:context="com.example.arribasd.a18_sqliteserver.Activitis.MainActivity">
 
     <Button
-        android:id="@+id/regisrty"
+        android:id="@+id/registry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Regisrty User"
         android:onClick="onClick"
-        android:text="regitry user"/>
+        />
 
     <Button
-        android:id="@+id/show"
+        android:id="@+id/showUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick"
-        android:text="show user"/>
-
+        android:text="Show User"
+        android:onClick="onClick"/>
 </LinearLayout>

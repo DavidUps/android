@@ -1,4 +1,4 @@
-package com.example.arribasd.a18_sqliteserver.Activitys;
+package com.example.arribasd.a18_sqliteserver.Activitis;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,10 +15,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.arribasd.a18_sqliteserver.ClassUser.Usuario;
 import com.example.arribasd.a18_sqliteserver.R;
 
 import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -48,12 +48,23 @@ public class ShowUser extends AppCompatActivity implements Response.Listener<Str
                 StringRequest sr = new StringRequest(Request.Method.POST, "http://192.168.1.75/ejemplo/select.php", new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(ShowUser.this, response, Toast.LENGTH_LONG).show();
 
-                        Usuario usuario = new Usuario();
+                        try {
 
-                        JSONArray jsonArray = response.("");
+                            JSONObject object = new JSONObject(response);
+                            JSONArray jArray = object.getJSONArray("users");
+                            for(int i=0; i<jArray.length();i++){
+                                JSONObject jUser = jArray.getJSONObject(i);
+                                Log.d("My App", jUser.getString("name"));
+                                email.setText(jUser.getString("email"));
+                                name.setText(jUser.getString("name"));
+                                password.setText(jUser.getString("password"));
+                            }
 
+
+                        } catch (Throwable t) {
+                            Log.e("My App", "Could not parse malformed JSON: \"" + response + "\"");
+                        }
                         Log.d("show", response);
                     }
                 }, new Response.ErrorListener() {
