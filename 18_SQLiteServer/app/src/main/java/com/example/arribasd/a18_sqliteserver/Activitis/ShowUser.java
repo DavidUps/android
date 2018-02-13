@@ -45,7 +45,7 @@ public class ShowUser extends AppCompatActivity implements Response.Listener<Str
         show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                StringRequest sr = new StringRequest(Request.Method.POST, "http://192.168.1.75/ejemplo/select.php", new Response.Listener<String>() {
+                StringRequest sr = new StringRequest(Request.Method.POST, "http://192.168.1.55/ejemplo/select.php", new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
 
