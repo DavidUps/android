@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/repsol_regular</item>
+        <item name="colorPrimary">@color/naranjaRepsol</item>
+        <item name="colorAccent">@color/naranjaRepsol</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/naranjaRepsol</item>
+    </style>
+
+    <style name="RepsolEditText" parent="Widget.Design.TextInputLayout">
+        <item name="colorControlNormal">@color/naranjaRepsol</item>
+        <item name="colorControlActivated">@color/naranjaRepsol</item>
+        <item name="colorControlHighlight">@color/naranjaRepsol</item>
+        <item name="font">@font/repsol_regular</item>
+        <item name="hintTextAppearance">@font/repsol_regular</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+</resources>
