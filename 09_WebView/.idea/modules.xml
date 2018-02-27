@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/09_WebViewPermisos.iml" filepath="$PROJECT_DIR$/09_WebViewPermisos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_WebView.iml" filepath="$PROJECT_DIR$/09_WebView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
