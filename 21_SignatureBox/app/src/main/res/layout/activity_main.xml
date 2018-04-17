@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:sign="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:namespace="http://schemas.android.com/apk/res-auto">
+
+    <com.kyanogen.signatureview.SignatureView
+        android:id="@+id/signature_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        sign:penSize="5dp"
+        sign:backgroundColor="#ffffff"
+        sign:penColor="#000000"
+        sign:enableSignature="true"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textAllCaps="false"
+        sign:layout_constraintBottom_toBottomOf="@+id/signature_view"
+        sign:layout_constraintLeft_toLeftOf="parent"
+        sign:layout_constraintRight_toRightOf="@+id/btnSave"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textAllCaps="false"
+        sign:layout_constraintBottom_toBottomOf="@+id/signature_view"
+        sign:layout_constraintRight_toRightOf="parent"
+        sign:layout_constraintLeft_toLeftOf="@+id/btnClear"/>
+</android.support.constraint.ConstraintLayout>
